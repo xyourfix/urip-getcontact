@@ -33,6 +33,11 @@ define('SMTP_PASSWORD', '');
 define('FROM_EMAIL', 'noreply@modernapp.com');
 define('FROM_NAME', APP_NAME);
 
+// GetContact API Configuration
+define('GETCONTACT_TOKEN', 'TOKEN'); // Replace with your actual token
+define('GETCONTACT_KEY', 'FINAL_KEY'); // Replace with your actual final key
+define('GETCONTACT_API_URL', 'https://pbssrv-centralevents.com/v2.8/number-detail');
+
 // Cache Configuration
 define('CACHE_ENABLED', true);
 define('CACHE_LIFETIME', 3600);
